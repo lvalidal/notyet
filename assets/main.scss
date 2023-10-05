@@ -1,0 +1,338 @@
+$border: 0px solid ;
+$empty : white;
+$shadow : rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+body {
+
+    background-color: azure;
+}
+
+
+
+header {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 40px ;
+
+
+    p {
+
+        border: $border ;
+        width: 300px;
+        height: 100px;
+        align-items: center;
+        display: inline-block;
+        
+    
+    }
+}
+
+.stark {
+
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 300px 300px 300px;
+   
+    justify-content: space-around;
+    margin-top: 50px;
+
+    .thor{
+
+        border: $border;
+        border-radius: 10px;
+        box-shadow: $shadow;
+        background-color: $empty ;
+    }
+    
+    .gwen{
+    
+        border: $border;
+        border-radius: 10px;
+        background-color:$empty;
+        box-shadow:$shadow;
+    }
+    
+    .doctor{
+    
+        border: $border;
+        border-radius: 10px;
+        background-color:$empty ;
+        box-shadow: $shadow;
+    }
+    
+    .yelena{
+    
+        border: $border;
+        background-color: $empty;
+        border-radius: 10px;
+        box-shadow: $shadow;
+    }
+    
+    .cap{
+    
+        border: $border;
+        background-color: $empty;
+        border-radius: 10px;
+        box-shadow: $shadow;
+    }
+    
+    .vision {
+    
+        border: $border;
+        background-color: $empty;
+        border-radius: 10px;
+        box-shadow: $shadow;
+    }
+
+    img {
+
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    
+    p {
+
+        padding: 5px;
+    }
+
+    h1 {
+
+        padding: 5px;
+    }
+
+    h2 {
+
+        padding: 5px;
+        color: coral;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
+
+    .word {
+
+        color: gray;
+       margin: 5px;
+      
+    }
+
+    p {
+
+        display: inline-block;
+    }
+
+    .two {
+        margin-left: 150px;
+       
+       
+    }
+
+    #avengers .vision .wanda {
+
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .loki {
+    
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .spiderman {
+    
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .strange {
+    
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .nat {
+    
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .tony {
+    
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .image-overlay {
+    
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background-color:  rgba(0, 0, 0, 0.482) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:$empty;
+        visibility: hidden;
+        opacity: 0;
+        
+     }
+    
+     .fav {
+        transition: 300ms;
+     }
+    
+     .fav:hover .image-overlay {
+    
+        visibility: visible;
+        opacity: 1;
+        
+    
+     }
+    
+     .fav {
+    
+        position: relative;
+     }
+    
+     .button {
+    
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 80px ;
+        left: 0;
+        top: 0;
+        width: 70px;
+        height: 40px;
+        background-color: rgb(174, 62, 31) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:$empty;
+        visibility: hidden;
+        opacity: 0;
+        transform: scale(0);
+        transition: 1s linear;
+     }
+    
+     .fav:hover .button {
+    
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+        
+    
+     }
+
+     
+}
+
+.abutton {
+    
+    
+    margin-top: 50px;
+    margin-left: 45%;
+    margin-bottom: 50px;
+    left: 0;
+    top: 0;
+    width: 140px;
+    height: 50px;
+    background-color: rgb(174, 62, 31) ;
+    display:inline-block ;
+    justify-content: center;
+    align-items: center;
+    color: $empty;
+    border-radius: 5px;
+ }
+
+ #city {
+
+    background-color: bisque;
+    
+ }
+
+
+ .paris {
+
+    text-align: center;
+    padding-top: 40px ;
+
+     p{
+
+        color: gray;
+        border: 0 solid;
+        width: 400px;
+        height: 100px;
+        align-items: center;
+        display: inline-block;
+     }
+ }
+
+ .newyork {
+
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 250px 250px  ;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+
+
+
+
+.baku{
+
+    border: $border;
+    
+    
+   
+}
+
+.istanbul{
+
+    border: $border;
+    
+}
+
+.moscow{
+
+    border: $border;
+    
+}
+
+.berlin{
+
+    border: $border;
+   
+   
+}
+
+.milan{
+
+    border: $border;
+    
+}
+
+.denver {
+
+    border:$border;
+    
+   
+}
+
+}
+
+
+// 7+1 pattern ile yazacaqdim amma scss -imi ise sala bilmirdim, gec basladim ise ve her an gozlerim oz ozune avtorejim kimi baglana biler uzlu sayin not: deadline vaxtina kimi bos bir sey buraxmaq istemedim son beyin huceylerimle bu qeder savasa bildik sorry. her sey ucun tesekkurler ve soz narahat olmayin onsuz daha bu movzuda cox kesif edesiyem. (heart emoji)
